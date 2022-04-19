@@ -1,4 +1,4 @@
-# confirmation_of_survival
+# COS_Py_Sc
 
 "COS_Py_Sc" is a survival verification program coded in Python exclusively for Scratch.
 It displays a lot of things in "What I'm working on"
@@ -9,8 +9,8 @@ It is very easy to use as all you have to do is run the Python file.
 
 # Requirement 
 
-* Python 3+
-* scratchconnect
+* Python 3.0+
+* scratchconnect v2.0+
 * option: pyinstaller
 
 # Installation
@@ -36,16 +36,15 @@ Optionally, the Python file can be converted to an .exe file:
 # Note
 
 It may take some time for the number of unread messages to be reflected.
-Therefore, there may be a slight delay in updating the display, but rest assured that this is not a bug, etc :)
+Therefore, there may be a slight delay in updating the display, but rest assured that this is not a bug, etc.
+If you have any questions, please feel free to ask me anytime :)
+
 
 # Author
 
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
+* GitHub - pscore23
+* Skype: pscore23
 
 # License
 
-"confirmation_of_survival" is under [MIT license] (https://en.wikipedia.org/wiki/MIT_License)
+"COS_Py_Sc" is under [MIT license] (https://en.wikipedia.org/wiki/MIT_License)
