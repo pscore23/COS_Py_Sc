@@ -21,5 +21,5 @@ while True: # メインループ
         wait(1)
     dt = datetime.datetime.now() # 現在日時を取得
     dt = str(dt.replace(microsecond = 0)) # ミリ秒以下を切り捨て
-    setwork(f'生存確認 ({dt})\r\nこの表示は [PIS3.exe] によって自動更新されています。\r\nインスピレーションをくれた @yukku さんと\r\nこのシステムの開発者の @Rubik_13 さんに感謝!')
+    setwork(f'生存確認 ({dt})\r\nこの表示は [COS_Py_Sc.py] によって自動更新されています。\r\nインスピレーションをくれた @yukku さんと\r\nこのシステムの開発者の @Rubik_13 さんに感謝!')
     wait(3)
