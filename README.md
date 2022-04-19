@@ -37,6 +37,8 @@ Optionally, the Python file can be converted to an .exe file:
 
 It may take some time for the number of unread messages to be reflected.
 Therefore, there may be a slight delay in updating the display, but rest assured that this is not a bug, etc.
+This system is still in the development stage, so please report any bugs you find.
+Also, this is still only available in Japanese.
 If you have any questions, please feel free to ask me anytime :)
 
 
