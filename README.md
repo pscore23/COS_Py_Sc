@@ -1,6 +1,6 @@
 # COS_Py_Sc
 
-"COS_Py_Sc" is a survival verification program coded in Python exclusively for Scratch.
+"COS_Py_Sc" is a survival verification program coded in Python exclusively for Scratch.  
 It displays a lot of things in "What I'm working on"
 
 # Features
@@ -17,28 +17,41 @@ It is very easy to use as all you have to do is run the Python file.
 
 Install ScratchConnect (and PyInstaller) with pip command.
 
-* "pip install scratchconnect"
-* "pip install pyinstaller"
+```
+pip install scratchconnect
+```
+```
+pip install pyinstaller
+```
 
 # Usage
 
 1. Open the Python file you obtained
-2. find the part "scratchconnect.ScratchConnect('_____', '_____')"
-3. Change the part to your Scratch "('username', 'password')"
+2. find the part
+```Python
+scratchconnect.ScratchConnect('_____', '_____')
+```
+3. Change the part to your Scratch
+```Python
+scratchconnect.ScratchConnect('username', 'password')
+```
 4. Save
 5. Execute!
 
 Optionally, the Python file can be converted to an .exe file:
 1. open a command prompt
 2. Go to the directory where the file is stored
-3. Execute "pyinstaller --onefile COS_Py_Sc.py
+3. Execute
+```
+pyinstaller --onefile COS_Py_Sc.py
+```
 
 # Note
 
-It may take some time for the number of unread messages to be reflected.
-Therefore, there may be a slight delay in updating the display, but rest assured that this is not a bug, etc.
-This system is still in the development stage, so please report any bugs you find.
-Also, this is still only available in Japanese.
+It may take some time for the number of unread messages to be reflected.  
+Therefore, there may be a slight delay in updating the display, but rest assured that this is not a bug, etc.  
+__This system is still in the development stage, so please report any bugs you find.__  
+__Also, this is still only available in Japanese.__  
 If you have any questions, please feel free to ask me anytime :)
 
 
