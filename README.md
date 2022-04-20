@@ -50,6 +50,7 @@ pyinstaller --onefile COS_Py_Sc.py
 
 It may take some time for the number of unread messages to be reflected.  
 Therefore, there may be a slight delay in updating the display, but rest assured that this is not a bug, etc.  
+__This system only works for users with "Scratcher" status.__  
 __This system is still in the development stage, so please report any bugs you find.__  
 __Also, this is still only available in Japanese.__  
 If you have any questions, please feel free to ask me anytime :)
