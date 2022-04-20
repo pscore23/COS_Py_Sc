@@ -1,8 +1,12 @@
 import scratchconnect # 諸々インポート
 import time
 import datetime
+import sys
 
 session = scratchconnect.ScratchConnect('_____', '_____') # サインイン
+status = session.status() # ユーザーのステータスを取得
+if status == 'New Scratcher': # New Scratcher なら強制終了
+    sys.exit()
 wait = lambda second: time.sleep(second) # PEP8 は無視していくスタイル
 setwork = lambda text: session.set_work(content=text)
 
